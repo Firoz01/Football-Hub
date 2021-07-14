@@ -203,6 +203,60 @@ nav a:hover{
 
 
 /*-----------------------------------------------------------
+                             Contact CSS
+-------------------------------------------------------------*/
+
+
+#contact{
+    width: 100%;
+    height: 490px;
+    background-color: rgba(128, 128, 128, 0.267);
+    text-align: center;
+    margin-bottom: 80px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.contact-heading h2{
+    font-size: 44px;
+    margin:0;
+}
+
+.contact-heading p{
+    font-size: 16px;
+}
+
+.input{
+    display: block;
+    margin: 15px auto;
+    width: 450px;
+    height: 50px;
+    border: none;
+    outline: none;
+}
+
+#message{
+    width: 450px;
+    border: none;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+#submit{
+        display: block;
+        width: 450px;
+        margin: 0 auto;
+        padding: 15px 0;
+        background-color: #fff;
+        font-size: 16px;
+        border: none;
+        color:  rgb(128, 128, 128);
+        border-radius: 5px;
+        cursor: pointer;
+}
+
+
+/*-----------------------------------------------------------
                              Sponsors CSS
 -------------------------------------------------------------*/
 
@@ -419,6 +473,33 @@ footer p{
         place-items: center;
     }
 
+
+    #contact{
+        width: 100%;
+        height: 390px;
+        margin-right: 0;
+    }
+
+    .contact-heading h2 {
+        font-size: 33px;
+    }
+
+    .contact-heading p {
+        font-size: 13px;
+    }
+    
+    .input{
+        height: 38px;
+    }
+
+    #message{
+        height: 80px;
+    }
+
+    #submit{
+        height: 38px;
+        padding-right: 50px;
+    }
 
     #highlights{
         flex-direction: column;

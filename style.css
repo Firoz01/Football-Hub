@@ -127,8 +127,14 @@ nav a:hover{
 .player{
     width: 315px;
     height: 474px;
-    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.144);
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.233);
     padding-left: 15px;
+    transition: .4s;
+}
+
+.player:hover{
+    transform: scale(1.1);
+
 }
 
 .player-img{

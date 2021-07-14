@@ -302,13 +302,87 @@ footer p{
     }
 }
  
-@media only screen and (min-width:993px) and (max-width: 1311px){
- 
+
+ /*----------------------- responsive for iPad------------------------
+ -------------------------------------------------------------------- */
+
+@media only screen and (min-width:689px) and (max-width: 991px){
+
+    /* responsive for iPad */
+
+    #header {
+        height: 580px;
+    }
+
+    ul{
+        padding-left: 15px;
+    }
+    ul li {
+        margin-right: 20px;
+    }
+
+    .banner-details {
+        padding-left: 60px;
+    }
+
+    #banner-title {
+        font-size: 36px;
+        line-height: 50px;
+    }
+
+    .banner-img {
+        width: 400px;
+        height: 380px;
+    }
+
+
+    #highlights {
+        margin-top: 130px;
+        padding-left: 78px;
+        padding-right: 65px;
+    }
+
+    .players{
+        grid-template-columns: repeat(2, 1fr);
+        padding-left: 56px;
+    }
+    .player{
+        margin-right: 15px;
+        padding-left: 10px;
+    }
+
+    #highlights-title {
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    #highlights img {
+        width: 350px;
+        height: 280px;
+    }
+
+
+    #sponsors {
+        height: 400px;
+    }
+
+
+    .platium-sponsors img {
+        width: 200px;
+    }
+
+    .dimond-sponsors img {
+        width: 100px;
+    }
+
+    footer {
+        margin-top: 80px;
+        margin-bottom: 60px;
+    }
 }
 
-@media only screen and (min-width:689px) and (max-width: 992px){
-  
-}
+/*--------------Responsive for mobile device------------
+--------------------------------------------------------*/
  
 @media only screen and (max-width:688px){
 
@@ -336,7 +410,7 @@ footer p{
     .banner-img{
         width: 350px;
         height: 270px;
-        margin-left: 40px;
+        margin-left: 24px;
     }
     
     .players{
@@ -372,14 +446,14 @@ footer p{
     }
 
     #sponsors {
-        height: 250px;
+        height: 230px;
     }
     .platium-sponsors img {
         width: 120px;
     }
 
     .dimond-sponsors img {
-        width: 45px;
+        width: 33px;
     }
 
     footer {

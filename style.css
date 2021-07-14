@@ -362,11 +362,19 @@ footer p{
         height: 580px;
     }
 
-    ul{
+    .navbar ul{
         padding-left: 15px;
     }
-    ul li {
+    .navbar ul li {
         margin-right: 20px;
+    }
+
+    .navbar a:hover{
+        font-size: 18px;
+        padding: 10px 30px;
+        border-radius: 3px;
+        background-color: rgba(7, 93, 173, 0.918);
+        box-shadow: 0 0 2px 2px #f0f0f0cc;
     }
 
     .banner-details {

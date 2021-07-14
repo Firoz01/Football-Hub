@@ -1,0 +1,178 @@
+/*-------------------------
+     Using fonts
+------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+/*---------------------------------
+     common style and utilits
+----------------------------------*/
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+/*---------------------------------
+     header CSS
+----------------------------------*/
+
+#header{
+     background-color: #34009C; 
+     width: 100%;
+     height: 677px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    height: 44px;
+    padding-top: 52px;
+    align-items: center;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    margin-right: 36px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.fa-sign-in-alt{
+    margin-right: 10px;
+}
+.login-btn, .common-btn{
+    width: 123px;
+    height: 44px;
+    background-color: #C0316F;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+#banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 49px;
+}
+.banner-details{
+    padding-left: 130px;
+}
+#banner-title{
+    font-size: 64px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 27px;
+    line-height: 80px;
+}
+.common-btn{
+    width: 168px;
+}
+.banner-png{
+    width: 556px;
+    height: 438px;
+}
+
+
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 27px;
+    place-items: center;
+    margin-top: 70px; 
+    padding-left: 120px;
+    padding-right: 110px;
+}
+
+.player{
+    width: 315px;
+    height: 474px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.144);
+    padding-left: 15px;
+}
+
+.player-img{
+    width: 300px;
+    height: 256px;
+    padding-top: 15px;
+}
+
+.player-info{
+    width: 300px;
+    height: 154px;
+}
+
+.player-name{
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 700;
+    color: #18191F;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.player-details{
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 16px;
+    color: #6C6C6C;
+    margin: 0;
+}
+
+#highlights{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 165px;
+    padding-left: 140px;
+    padding-right: 70px;
+}
+.highlights-details{
+    width: 466px;
+    height: 309px;
+}
+
+#highlights-title{
+    font-size: 48px;
+    line-height: 60px;
+}
+#highlights img{
+    width: 567px;
+    height: 427px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 158px;
+}
+.logo img{
+    width: 484px;
+    height: 110px;
+}
+
+.social-icons{
+    justify-content: center;
+}
+
+.social-icons li{
+    width: 32px;
+    height: 32px;
+    color: #969BAB;
+    background-color: #969bab48;
+    margin-right: 18px;
+    border-radius: 50%;
+}
+.fab, .fas{
+    padding-top: 8px;
+}
+footer p{
+    font-size: 18px;
+    padding-left: 20px;
+}

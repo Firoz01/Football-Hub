@@ -156,12 +156,11 @@ nav a:hover{
     margin-top: 20px;
     margin-bottom: 10px;
 }
-.player-details{
+.player-details, .highlights-details{
     font-size: 16px;
     font-weight: 400px;
     line-height: 16px;
     color: #6C6C6C;
-    margin: 0;
 }
 
 /*-----------------------------------------------------------
@@ -177,15 +176,21 @@ nav a:hover{
     padding-right: 70px;
     margin-bottom: 100px;
 }
-.highlights-details{
+.highlights-info{
     width: 466px;
     height: 309px;
+    margin-right: 20px;
 }
 
 #highlights-title{
-    font-size: 48px;
+    font-size: 45px;
     line-height: 60px;
 }
+
+.highlights-details{
+    margin-bottom: 24px;
+}
+
 #highlights img{
     width: 567px;
     height: 427px;
@@ -268,3 +273,120 @@ footer p{
     font-size: 18px;
     padding-left: 20px;
 }
+
+
+/*-----------------------------------------
+         Reponsive Design CSS
+----------------------------------------- */
+
+
+   /* Large Screen */
+
+@media only screen  and (min-width : 1312px) {
+    .players {
+        padding-left: 285px;
+        padding-right: 210px;
+    }
+
+    #highlights {
+        padding-left: 190px;
+        padding-right: 50px;
+    }
+    .highlights-info{
+        margin-left: 20px;
+    }
+}
+ 
+@media only screen and (min-width:993px) and (max-width: 1311px){
+ 
+}
+
+@media only screen and (min-width:689px) and (max-width: 992px){
+  
+}
+ 
+@media only screen and (max-width:688px){
+
+    nav{
+        display: none;
+    }
+
+    #banner{
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 0;
+    }
+
+    .banner-details{
+        padding: 0;
+        margin-bottom: 100px;
+        margin-left: 50px;
+    }
+
+    #banner-title{
+        font-size: 36px;
+        line-height: 50px;
+    }
+
+    .banner-img{
+        width: 300px;
+        height: 250px;
+        transition: .5s;
+        margin-left: 50px;
+    }
+    
+    .players{
+        padding: 0;
+        grid-template-columns: repeat(1, 1fr);
+        place-items: center;
+    }
+
+
+    #highlights{
+        flex-direction: column;
+        margin-top: 60px;
+        padding-left: 0px;
+        padding-right: 10px;
+    }
+
+
+    .highlights-info {
+        width: 330px;
+        height: 299px;
+        margin-right: 0;
+        margin-bottom: 30;
+    }
+
+    #highlights-title{
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    #highlights img{
+        width: 328px;
+        height: 248px;
+    }
+
+    #sponsors {
+        height: 250px;
+    }
+    .platium-sponsors img {
+        width: 120px;
+    }
+
+    .dimond-sponsors img {
+        width: 45px;
+    }
+
+    footer {
+        margin-top: 50px;
+        margin-bottom: 60px;
+    }
+
+    .logo img {
+        width: 276px;
+        height: 63px;
+    }
+}
+  

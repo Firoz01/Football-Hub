@@ -8,11 +8,16 @@
                         common style and utilits
 --------------------------------------------------------------*/
 
+html, body{
+    overflow-x: hidden;
+}
+
 body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family:'Poppins', sans-serif;
+    position: relative;
 }
 
 /*-----------------------------------------------------------
@@ -312,7 +317,6 @@ footer p{
     }
 
     #banner{
-        width: 100%;
         flex-direction: column;
         align-items: flex-start;
         margin-top: 0;

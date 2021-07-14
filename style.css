@@ -20,6 +20,12 @@ body{
     position: relative;
 }
 
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 /*-----------------------------------------------------------
                              header CSS
 -------------------------------------------------------------*/
@@ -34,28 +40,25 @@ body{
                         NavBar CSS
          -------------------------------------------*/
 
-nav{
-    display: flex;
-    justify-content: space-around;
+.navbar{
     height: 44px;
     padding-top: 52px;
-    align-items: center;
 }
-ul{
+.navbar ul{
     display: flex;
 }
-ul li{
+.navbar ul li{
     list-style: none;
     margin-right: 36px;
 }
 
-ul li a{
+.navbar li a{
     text-decoration: none;
     color: #fff;
     transition: .5s;
 }
 
-nav a:hover{
+.navbar a:hover{
     font-size: 18px;
     padding: 10px 20px;
     border-radius: 5px;
@@ -82,9 +85,6 @@ nav a:hover{
 -------------------------------------------------------------*/
 
 #banner{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     margin-top: 49px;
 }
 .banner-details{
@@ -173,9 +173,6 @@ nav a:hover{
 -------------------------------------------------------------*/
 
 #highlights{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     margin-top: 165px;
     padding-left: 140px;
     padding-right: 70px;
@@ -267,10 +264,8 @@ nav a:hover{
 }
 
 .platium-sponsors{
-    display: flex;
-    justify-content: center;
     padding-top: 50px;
-    align-items: center;
+    justify-content: center;
 }
 
 .platium-sponsors img{
@@ -278,9 +273,7 @@ nav a:hover{
 }
 
 .dimond-sponsors{
-    display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .dimond-sponsors li{
@@ -324,6 +317,7 @@ footer{
     background-color: #969bab48;
     margin-right: 18px;
     border-radius: 50%;
+    list-style: none;
 }
 .fab, .fas{
     padding-top: 8px;
@@ -440,7 +434,7 @@ footer p{
  
 @media only screen and (max-width:688px){
 
-    nav{
+    .navbar{
         display: none;
     }
 

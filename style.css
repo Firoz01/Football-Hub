@@ -65,6 +65,11 @@ ul li a{
 }
 .banner-details{
     padding-left: 130px;
+    transition: .5s;
+}
+
+.banner-details:hover{
+    transform: scale(1.2);
 }
 #banner-title{
     font-size: 64px;
@@ -76,12 +81,15 @@ ul li a{
 .common-btn{
     width: 168px;
 }
-.banner-png{
+.banner-img{
     width: 556px;
     height: 438px;
+    transition: .5s;
 }
 
-
+.banner-img:hover{
+    transform: scale(1.4);
+}
 
 .players{
     display: grid;

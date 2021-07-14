@@ -1,12 +1,12 @@
-/*-------------------------
-     Using fonts
-------------------------- */
+/*-----------------------------------------------
+                     Using fonts
+-------------------------------------------------- */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
-/*---------------------------------
-     common style and utilits
-----------------------------------*/
+/*-------------------------------------------------------------
+                        common style and utilits
+--------------------------------------------------------------*/
 
 body{
     margin: 0;
@@ -15,15 +15,19 @@ body{
     font-family:'Poppins', sans-serif;
 }
 
-/*---------------------------------
-     header CSS
-----------------------------------*/
+/*-----------------------------------------------------------
+                             header CSS
+-------------------------------------------------------------*/
 
 #header{
      background-color: #34009C; 
      width: 100%;
      height: 677px;
 }
+
+         /*-------------------------------------------
+                        NavBar CSS
+         -------------------------------------------*/
 
 nav{
     display: flex;
@@ -43,7 +47,17 @@ ul li{
 ul li a{
     text-decoration: none;
     color: #fff;
+    transition: .5s;
 }
+
+nav a:hover{
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: rgba(7, 93, 173, 0.918);
+    box-shadow: 0 0 3px 3px #f0f0f0cc;
+}
+
 .fa-sign-in-alt{
     margin-right: 10px;
 }
@@ -57,6 +71,11 @@ ul li a{
     padding-bottom: 8px;
 }
 
+
+/*-----------------------------------------------------------
+                             Banner CSS
+-------------------------------------------------------------*/
+
 #banner{
     display: flex;
     justify-content: space-around;
@@ -64,7 +83,7 @@ ul li a{
     margin-top: 49px;
 }
 .banner-details{
-    padding-left: 130px;
+    padding-left: 120px;
     transition: .5s;
 }
 
@@ -87,9 +106,13 @@ ul li a{
     transition: .5s;
 }
 
-.banner-img:hover{
+.banner-img:hover {
     transform: scale(1.4);
-}
+} 
+
+/*-----------------------------------------------------------
+                             players Card CSS
+-------------------------------------------------------------*/
 
 .players{
     display: grid;
@@ -135,6 +158,10 @@ ul li a{
     margin: 0;
 }
 
+/*-----------------------------------------------------------
+                             Highlights CSS
+-------------------------------------------------------------*/
+
 #highlights{
     display: flex;
     justify-content: space-around;
@@ -158,6 +185,10 @@ ul li a{
     height: 427px;
 }
 
+
+/*-----------------------------------------------------------
+                             Sponsors CSS
+-------------------------------------------------------------*/
 
 #sponsors{
     width: 100%;
@@ -196,6 +227,10 @@ ul li a{
     list-style: none;
 }
 
+
+/*-----------------------------------------------------------
+                             Footer CSS
+-------------------------------------------------------------*/
 
 
 footer{
